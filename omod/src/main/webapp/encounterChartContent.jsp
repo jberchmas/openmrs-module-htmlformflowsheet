@@ -10,8 +10,8 @@
 		$j('#encounterChartPopup${model.portletUUID}').dialog({
 				title: 'TODO: put encounter details here dynamically',
 				autoOpen: false,
-				draggable: false,
-				resizable: false,
+				draggable: true,
+				resizable: true,
 				width: '95%',
 				modal: true
 		});
